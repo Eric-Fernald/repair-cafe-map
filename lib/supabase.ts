@@ -29,7 +29,7 @@ export interface Database {
           website: string | null
           hours: Json | null
           services: string[] | null
-          location_type: 'repair_cafe' | 'commercial_shop' | 'mobile_service'
+          location_type: 'repair_cafe' | 'commercial_shop' | 'mobile_service' | 'individual_repairer'
           created_at: string
           updated_at: string
           created_by: string | null
